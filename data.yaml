@@ -1,7 +1,7 @@
 # data.yaml
 
-train: dataset/images/license_plates_detection_train  # Path to training images
-val: dataset/images/license_plates_detection_train  # You can use the same set for validation, or split it later
+train: D:\ObjectDetectionProject\dataset\images\train  # Path to training images
+val: D:\ObjectDetectionProject\dataset\images\val   # Path to validation images
 
 nc: 1  # Number of classes (for license plate detection, this is 1)
 names: ['license_plate']  # List of class names
